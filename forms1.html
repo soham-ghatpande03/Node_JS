@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Myform</title>
+</head>
+<body>
+    <form action="http://localhost:9000/valid">
+        <table>
+            <tr >
+                    <td width="40" >
+                        <label for="id">User ID:</label>
+                    </td>
+                    <td width="40">
+                        <input type="text" name="user" id="id" value="Enter UserName" style="text-align:center" />
+                    </td>
+            </tr>
+            <tr >
+                <td width="40">     
+                    <label for="pwd">Password:</label>
+                </td>              
+                <td width="40" >
+                    <input type="password" name="pass" id="pwd" />
+                </td>
+            </tr>
+        </table>
+        
+
+        <input type="submit" value="Login" />
+        <input type="reset" value="Cancel" />
+        <br />
+        <h3>Select one Sport</h3>
+        <input type="radio" name="h1" value="Football" />Football<br />
+        <input type="radio" name="h1" value="Cricket" />Cricket<br />
+        <input type="radio" name="h1" value="Basketball" />Basketball<br />
+        <input type="radio" name="h1" value="Volleyball" />Volleyball<br />
+        <input type="radio" name="h1" value="Baseball" />Baseball<br />
+
+        <h3>Select multiple Sport</h3>
+        <input type="checkbox" name="h9" value="Football" />Football<br />
+        <input type="checkbox" name="h2" value="Cricket" />Cricket<br />
+        <input type="checkbox" name="h2" value="Basketball" />Basketball<br />
+        <input type="checkbox" name="h3" value="Volleyball" />Volleyball<br />
+        <input type="checkbox" name="h4" value="Baseball" />Baseball<br />
+    </form>
+</body>
+</html>
